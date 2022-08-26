@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     chart: mychart
-    repoURL: https://github.com/reg117/sample-app.git
+    repoURL: https://reg117.github.io/sample-app/
     targetRevision: 0.1.0
     path: dev
     helm:
