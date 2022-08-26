@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       app: myapp
-  replicas: {{ .dev-values.replicaCount }}
+  replicas: {{ .values.replicaCount }}
   template:
     metadata:
       labels:
