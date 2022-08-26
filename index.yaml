@@ -10,5 +10,5 @@ entries:
     type: application
     urls:
     - https://reg117.github.io/sample-app/mychart-0.1.0.tgz
-    version: 0.1.0
+    version: 0.2.0
 generated: "2022-08-26T13:14:28.749300491-04:00"
