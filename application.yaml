@@ -12,6 +12,8 @@ spec:
     path: dev
     helm:
       releaseName: mychart
+      valueFiles:
+      - ./mychart/values-dev.yaml
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
