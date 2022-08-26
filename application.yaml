@@ -13,7 +13,7 @@ spec:
     helm:
       releaseName: mychart
       valueFiles:
-      - ./mychart/values-dev.yaml
+      - https://reg117.github.io/sample-app/mychart/values.yaml
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
