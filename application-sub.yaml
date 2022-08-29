@@ -6,7 +6,7 @@ metadata:
 spec: 
   project: default
   source: 
-    path: subchart
+    path: dev
     repoURL: https://github.com/reg117/sample-app.git
     targetRevision: main
   destination: 
