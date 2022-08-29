@@ -9,11 +9,10 @@ spec:
     chart: mychart
     repoURL: https://reg117.github.io/sample-app/
     targetRevision: 0.1.0
-    path: dev
     helm:
       releaseName: mychart
       valueFiles:
-      - https://reg117.github.io/sample-app/mychart/values.yaml
+      - https://reg117.github.io/sample-app/values-dev.yaml
   destination: 
     server: https://kubernetes.default.svc
     namespace: myapp
